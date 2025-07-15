@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "IK~8aEB1TIT#4xbA_rfB7REJSP--0NTMLxtvbrYi91ADqsJ6BXE3Jk0",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-MD",  // Bot's display name
@@ -19,8 +19,8 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           // Owner's name
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2347017495704",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("Arikeh") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           // Owner's name
     DEV: process.env.DEV || "923427582273",                     // Developer's contact number
     DEVELOPER_NUMBER: '923427582273@s.whatsapp.net',            // Developer's WhatsApp ID
 
@@ -44,10 +44,10 @@ module.exports = {
     MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/7zfdcq.jpg",  // Bot's "alive" menu mention image
 
     // ===== SECURITY & ANTI-FEATURES =====
-    ANTI_DELETE: process.env.ANTI_DELETE || "true", // true antidelete to recover deleted messages 
+    ANTI_DELETE: process.env.ANTI_DELETE || "false", // true antidelete to recover deleted messages 
     ANTI_CALL: process.env.ANTI_CALL || "false", // enble to reject calls automatically 
     ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",    // Block bad words?
-    ANTI_LINK: process.env.ANTI_LINK || "true",    // Block links in groups
+    ANTI_LINK: process.env.ANTI_LINK || "false",    // Block links in groups
     ANTI_VV: process.env.ANTI_VV || "true",   // Block view-once messages
     DELETE_LINKS: process.env.DELETE_LINKS || "false",          // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // inbox deleted messages (or 'same' to resend)
@@ -58,8 +58,8 @@ module.exports = {
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*",  // Bot description
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // VIEW to status updates?
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", // React to status updates?
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false", // VIEW to status updates?
     AUTO_BIO: process.env.AUTO_BIO || "false", // ture to get auto bio 
     WELCOME: process.env.WELCOME || "false", // true to get welcome in groups 
     GOODBYE: process.env.GOODBYE || "false", // true to get goodbye in groups 
